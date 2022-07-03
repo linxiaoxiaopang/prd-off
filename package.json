@@ -4,7 +4,11 @@
   "license": "MIT",
   "private": false,
   "main": "dist/prdOff.js",
-  "description": "解决浏览器默认密码框提示问题",
+  "description": "v-prd-off 解决浏览器默认密码框提示问题",
+  "repository": {
+    "url": "linxiaoxiaopang/prd-off",
+    "type": "git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
