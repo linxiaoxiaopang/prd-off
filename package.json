@@ -1,11 +1,16 @@
 {
-  "name": "prd-off",
-  "version": "0.1.0",
-  "private": true,
+  "name": "v-prd-off",
+  "version": "1.0.1",
+  "license": "MIT",
+  "private": false,
+  "main": "dist/prdOff.js",
+  "description": "解决浏览器默认密码框提示问题",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i": "vue inspect > output.js",
+    "bi": "vue inspect --mode=production > output.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
